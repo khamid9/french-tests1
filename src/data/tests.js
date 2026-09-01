@@ -62,7 +62,7 @@ export const demoTests = [
     shuffle: true,
     createdAt: '2026-08-01',
     plays: 0,
-    questions: makeQuestions('test-present', demoQuestions['test-present'], 10)
+    questions: makeQuestions('test-present', demoQuestions['test-present'].slice(0, 10), 10)
   },
   {
     id: 'test-passe-compose',
@@ -75,7 +75,7 @@ export const demoTests = [
     shuffle: true,
     createdAt: '2026-08-05',
     plays: 0,
-    questions: makeQuestions('test-passe-compose', demoQuestions['test-passe-compose'], 10)
+    questions: makeQuestions('test-passe-compose', demoQuestions['test-passe-compose'].slice(0, 10), 10)
   },
   {
     id: 'test-vocabulaire-maison',
@@ -88,7 +88,7 @@ export const demoTests = [
     shuffle: true,
     createdAt: '2026-08-10',
     plays: 0,
-    questions: makeQuestions('test-vocabulaire-maison', demoQuestions['test-vocabulaire-maison'], 10)
+    questions: makeQuestions('test-vocabulaire-maison', demoQuestions['test-vocabulaire-maison'].slice(0, 10), 10)
   },
   {
     id: 'test-articles',
@@ -101,7 +101,7 @@ export const demoTests = [
     shuffle: true,
     createdAt: '2026-08-12',
     plays: 0,
-    questions: makeQuestions('test-articles', demoQuestions['test-articles'], 10)
+    questions: makeQuestions('test-articles', demoQuestions['test-articles'].slice(0, 10), 10)
   },
   {
     id: 'test-vocabulaire-aliments',
@@ -114,7 +114,7 @@ export const demoTests = [
     shuffle: true,
     createdAt: '2026-08-18',
     plays: 0,
-    questions: makeQuestions('test-vocabulaire-aliments', demoQuestions['test-vocabulaire-aliments'], 10)
+    questions: makeQuestions('test-vocabulaire-aliments', demoQuestions['test-vocabulaire-aliments'].slice(0, 10), 10)
   },
   ...curriculumTests
 ]
