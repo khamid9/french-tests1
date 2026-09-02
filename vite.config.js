@@ -6,5 +6,6 @@ export default defineConfig({
   server: {
     port: 5173,
     open: true
-  }
+  },
+  // Version: 2026-11 - updated for 20 questions per test
 })
